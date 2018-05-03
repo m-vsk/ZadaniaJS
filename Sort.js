@@ -1,3 +1,4 @@
+//Массив имен людей и их возраста
 var employees = [
     ["Валера", 30],
     ["Иван", 25],
@@ -25,6 +26,7 @@ function sortByAge(a, b) {
 
 //console.log(employees.sort(sortByName));
 /*
+Output:
 [ [ 'Александр', 34 ],
   [ 'Андрей', 28 ],
   [ 'Валера', 30 ],
@@ -36,6 +38,7 @@ function sortByAge(a, b) {
 
 console.log(employees.sort(sortByAge));
 /*
+Output:
 [ [ 'Вася', 22 ],
     [ 'Иван', 25 ],
     [ 'Андрей', 28 ],
