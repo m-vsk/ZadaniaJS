@@ -16,3 +16,9 @@ console.log(words(1)); //1 товар
 console.log(words(100)); //100 товаров
 console.log(words(12)); //12 товаров
 console.log(words(22)); //22 товара
+
+//document.write(words(0) + '<br>');
+//document.write(words(1) + '<br>');
+//document.write(words(100) + '<br>');
+//document.write(words(12) + '<br>');
+//document.write(words(22) + '<br>');

@@ -17,7 +17,7 @@ function pereplata(sum, term, rate) {
     // Общая сумма
     var total = (payments * term ).toFixed(2);
     //Сумма переплаты
-    var overpay = (total - sum).toFixed(2);
+    overpay = (total - sum).toFixed(2);
 
     //console.log('Общая сумма с переплатой: ' + total);
     //console.log('Переплата: ' + overpay);
@@ -32,6 +32,8 @@ var perepl = pereplata(2000000, 60, 10);
 //Выводим результат значения perepl
 console.log('Переплата: ' + perepl);
 //Output Переплата: 549645.40
+//document.write('Переплата: ' + perepl);
+
 
 //Переплата по процентам за кредит:    549 645 руб.
 //http://calculator-credit.ru/calculator.php

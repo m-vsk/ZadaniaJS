@@ -37,6 +37,7 @@ Output:
 
 
 console.log(employees.sort(sortByAge));
+//document.write(employees.sort(sortByAge));
 /*
 Output:
 [ [ 'Вася', 22 ],
